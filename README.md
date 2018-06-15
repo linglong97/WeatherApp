@@ -1,25 +1,15 @@
-# ReduxSimpleStarter
+# Weather App!
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+A simple weather app I made in learning react/redux, I should be learning more Redux-thunk and Redux-saga soon.
 
 ### Getting Started
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+If you want to copy this and make it run, you need to first install node/npm on your computer from an easily googleable link. Then just clone this repo, navigate into it, and install necessary packages(react-redux, redux-promise, react-sparklines, lodash, and axios).
 
 ```
 > git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> cd WeatherApp
 > npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
+> npm install --save react-redux redux-promise react-sparklines lodash axios
 > npm start
 ```
